@@ -26,7 +26,7 @@ A modern Windows C# WPF soundboard application that mixes microphone audio with 
 - 🎛️ **Virtual Audio Cable Support**: Outputs mixed audio to VB-Cable for use with Discord, OBS, and more
 - 🎨 **Modern Dark UI**: Sleek, dark-themed WPF interface with smooth animations and hover effects
 - 🎵 **Wide Format Support**: Plays WAV, MP3, M4A, WMA, and AAC audio files
-- ⌨️ **Keyboard Shortcuts**: Quick access to sounds with F1-F12 keys
+- ⌨️ **Keyboard Shortcuts**: Quick access to sounds with F1-F12 keys (F5 refresh the output devices)
 - 🎧 **Monitor Controls**: Option to hear your microphone locally
 - 📊 **Audio Visualization**: Real-time microphone level indicator
 - 🎚️ **Audio Device Selection**: Flexible routing for different output devices
@@ -95,7 +95,7 @@ graph LR
 
 ## 🎯 Pro Tips
 
-- **Hotkey Mapping**: Map frequently used sounds to F1-F12 for quick access
+- **Hotkey Mapping**: Map frequently used sounds to F1-F12 for quick access (F5 refresh the output devices)
 - **Sound Organization**: Keep your sound files well-organized in separate folders for different categories
 - **Volume Levels**: Adjust individual sound volumes before adding them to ensure consistent output levels
 - **Naming Convention**: Use clear, descriptive names for your sound files for easy identification
@@ -116,7 +116,7 @@ graph LR
 |----------|--------|
 | F1-F12   | Play sound in corresponding button position |
 | ESC      | Stop all playing sounds |
-| Space    | Toggle microphone mute (if implemented) |
+| F5       | F5 refresh the output devices |
 
 ## 🚨 Troubleshooting
 
@@ -191,5 +191,5 @@ For support or feature requests, please open an issue on GitHub.
 ---
 
 <div align="center">
-  Made with ❤️ for streamers and content creators
+  Made with ❤️ for my brother Amine
 </div>
